@@ -1,1 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
 
+[project]
+name = "nakshpy"
+version = "0.1.0"
+description = "A Python library for generating South Asian textile-inspired geometric patterns."
+authors = [
+    {name = "Zainab Khurram"}
+]
+requires-python = ">=3.9"
+dependencies = [
+    "matplotlib"
+]
